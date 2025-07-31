@@ -11,6 +11,15 @@ import LoadingZonePermitPage from "./pages/TransportInfrastructure/LoadingZonePe
 import ParkingFeePage from "./pages/TransportInfrastructure/ParkingFeePage";
 import PSVLicenseFeePage from "./pages/TransportInfrastructure/PSVLicenseFeePage";
 
+
+import LibraryMembershipForm from './pages/EducationCommunity/LibraryMembershipFeePage';
+import ECDCenterFeesForm from './pages/EducationCommunity/ECDCenterFeesPage';
+import VocationalTrainingForm from './pages/EducationCommunity/VocationalTrainingCenterFeesPage';
+import AdvertisementPermitForm from './pages/BusinessTrade/AdvertisingPermitPage';
+import LiquorLicensingForm from './pages/BusinessTrade/LiquorLicensingPage';
+import MarketStallFeesForm from './pages/BusinessTrade/MarketStallFeesPage';
+import SingleBusinessPermitForm from './pages/BusinessTrade/SingleBusinessPermitPage';
+
 function App() {
   return (
     <BrowserRouter>
@@ -23,6 +32,14 @@ function App() {
         <Route path="/loadingzonepermit" element={<LoadingZonePermitPage />} />
         <Route path="/parkingFee" element={<ParkingFeePage />} />
         <Route path="/psvicensefee" element={<PSVLicenseFeePage />} />
+        <Route path="/library-membership" element={<LibraryMembershipForm />} /> 
+        <Route path="/ecd -center" element={<ECDCenterFeesForm />} /> 
+        <Route path="/vocational-training" element={<VocationalTrainingForm />} /> 
+        <Route path="/advertisment-permit" element={<AdvertisementPermitForm />} />
+        <Route path="/advertisement-permit" element={<AdvertisementPermitForm />} />
+        <Route path="/liquor-licensing" element={<LiquorLicensingForm/>}/> 
+        <Route path="/market-stall-fees" element={<MarketStallFeesForm />} />
+        <Route path="/single-business-permit" element={<SingleBusinessPermitForm />}/>
       </Routes>
       <Footer />
     </BrowserRouter>
