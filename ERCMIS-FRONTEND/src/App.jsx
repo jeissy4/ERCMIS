@@ -3,9 +3,9 @@ import SlaughterhousePage from "./pages/AgricultureLivestock/SlaughterhousePage"
 import CropInspectionCertPage from "./pages/AgricultureLivestock/CropInspectionCertPage";
 import LivestockMovementPage from "./pages/AgricultureLivestock/LivestockMovementPage";
 //import AgricultureLivestockNavbar from './components/AgricultureLivestockComponents/AgricultureLivestockNavbar';
-import Navbar from "./components/AgricultureLivestockComponents/AgricultureLivestockNavbar";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Navbar from "./components/AgricultureLivestockComponents/AgricultureLivestockNavbar";
+// import Header from "./components/Header";
+// import Footer from "./components/Footer";
 //
 import LoadingZonePermitPage from "./pages/TransportInfrastructure/LoadingZonePermitPage";
 import ParkingFeePage from "./pages/TransportInfrastructure/ParkingFeePage";
@@ -26,9 +26,10 @@ import MaternityFeePage from "./pages/SocialServices/MaternityAndOutpatientFeePa
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Navbar />
+      {/* <Header />
+      <Navbar /> */}
       <Routes>
+        <Route path="/" element={<h1>Hello world</h1>} />
         <Route path="/slaughterhouse" element={<SlaughterhousePage />} />
         <Route path="/crop-inspection" element={<CropInspectionCertPage />} />
         <Route path="/livestock-movement" element={<LivestockMovementPage />} />
@@ -49,7 +50,7 @@ function App() {
         <Route path="/hospital-fee" element={<HospitalFeePage />} />
         <Route path="/maternity-fee" element={<MaternityFeePage />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 }
