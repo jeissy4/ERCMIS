@@ -22,14 +22,20 @@ import SingleBusinessPermitForm from './pages/BusinessTrade/SingleBusinessPermit
 import AmbulanceServiceFeePage from "./pages/SocialServices/AmbulanceServiceFeePage";
 import HospitalFeePage from "./pages/SocialServices/HospitalFeePage";
 import MaternityFeePage from "./pages/SocialServices/MaternityAndOutpatientFeePage";
+// 
+import Navbar from './components/Navbar';
+import FinanceServices from './components/FinanceServices';
+import Carroussel from './components/carroussel';
+
 
 function App() {
   return (
     <BrowserRouter>
+      <Navbar />
       {/* <Header />
       <Navbar /> */}
       <Routes>
-        <Route path="/" element={<h1>Hello world</h1>} />
+        <Route path="/" element={<><Carroussel /><FinanceServices /></>} />
         <Route path="/slaughterhouse" element={<SlaughterhousePage />} />
         <Route path="/crop-inspection" element={<CropInspectionCertPage />} />
         <Route path="/livestock-movement" element={<LivestockMovementPage />} />
