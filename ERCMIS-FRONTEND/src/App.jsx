@@ -27,6 +27,8 @@ import Navbar from './components/Navbar';
 import FinanceServices from './components/FinanceServices';
 import Carroussel from './components/carroussel';
 
+import Footer './components/AgricultureLivestockComponents/components/Footer';
+
 
 function App() {
   return (
@@ -57,6 +59,7 @@ function App() {
         <Route path="/maternity-fee" element={<MaternityFeePage />} />
       </Routes>
       {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }
