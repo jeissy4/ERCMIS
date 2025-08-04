@@ -1,18 +1,20 @@
 {
-  "name": "backend",
+  "name": "ercmis",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "description": "ercmis",
   "license": "ISC",
-  "description": "",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
   "dependencies": {
-    "cors": "^2.8.5",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "mysql": "^2.18.1",
-    "nodemon": "^3.1.10"
+    "moment": "^2.30.1",
+    "mongodb": "^6.18.0"
   }
 }
