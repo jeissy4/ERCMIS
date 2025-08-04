@@ -1,0 +1,63 @@
+/* LibraryMembershipForm.css */
+
+.library-form-container {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.library-form-container h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+.library-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.library-form input,
+.library-form select,
+.library-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.library-form input:focus,
+.library-form select:focus,
+.library-form textarea:focus {
+  outline: none;
+  border-color:  #2980b9;
+  box-shadow: 0 0 4px rgba(52, 91, 128, 0.3);
+}
+
+.library-form label {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.library-form button {
+  background-color:  #2980b9;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.library-form button:hover {
+  background-color:  #2980b9;
+}
