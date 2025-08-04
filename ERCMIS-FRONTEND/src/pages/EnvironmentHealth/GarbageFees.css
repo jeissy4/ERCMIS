@@ -1,0 +1,115 @@
+.garbage-container {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  background: #f9f9f9;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #fff;
+  border-left: 5px solid #27ae60;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.section h2 {
+  margin-bottom: 0.5rem;
+  color: #27ae60;
+}
+
+.section p, .section ol {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.cta {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.cta button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cta button:hover {
+  background: #219150;
+}
+
+.payment-form {
+  margin-top: 1rem;
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-row div {
+  flex: 1;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+button[type="submit"] {
+  background-color: #27ae60;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #219150;
+}
+
+.receipt {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #e8ffe8;
+  border-left: 5px solid #2ecc71;
+}
+
+.form-group input[type="tel"],
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+}

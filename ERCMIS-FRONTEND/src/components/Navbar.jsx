@@ -30,7 +30,7 @@ function Navbar() {
           {[
             { title: 'Business & Trade', items: [['Advertising Permit', '/advertismentpermit'], ['Liquor Licensing', '/liquorlicensing'], ['Market Stall Fees', '/marketstallfees'], ['Single Business Permit', '/singlebusinesspermit']] },
             { title: 'Transport & Infrastructure', items: [['Road Tolls', '/roadtolls'], ['Loading Zone Permit', '/loadingzonepermit'], ['PSV License Fee', '/psvicensefee'], ['Packing Fee', '/parkingfee']] },
-            { title: 'Environmental & Health Services', items: [['Waste Disposal Permits', '/wastedisposal'], ['Garbage Collection Fee', '/garbagecollection'], ['Cemetery And Burial Plot Fee', '/cemeteryburial'], ['Public Health Inspection Charges', '/publichealthinspection']] },
+            { title: 'Environmental & Health Services', items: [['Industrial Waste Permits', '/industrialwastepermit'], ['Sanitation Permits', '/sanitationpermit'], ['Garbage Collection Fee', '/garbagefees'], ['Cemetery And Burial Plot Fee', '/cemeteryfees'], ['Public Health Inspection Charges', '/publichealth']] },
             { title: 'Social Services', items: [['Ambulance Services Fees', '/ambulanceservicefee'], ['Hospital Fees', '/hospitalfee'], ['Maternity And Outpatient Fees', '/maternityfee']] },
             { title: 'Education & Community Services', items: [['ECD Center Fees', '/ecdcenter'], ['Library Membership Fees', '/librarymembership'], ['Vocational Training Center Fees', '/vocationaltraining']] },
             { title: 'Agriculture & Livestock', items: [['Crop Inspection Certification', '/cropinspection'], ['Livestock Movement', '/livestockmovement'], ['Slaughterhouse', '/slaughterhouse']] },

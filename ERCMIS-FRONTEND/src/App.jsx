@@ -29,7 +29,14 @@ import BuildingPlanApproval from "./pages/PropertyLand/BuildingPlanApprovalPage.
 import ChangeOfUseApplicationPage from "./pages/PropertyLand/Change-Of-UseApplicationPage.jsx";
 import LandRates from './pages/PropertyLand/LandRatesPage.jsx';
 import PlotRent from './pages/PropertyLand/PlotRentPage.jsx';
-
+// 
+import CemeteryFees from './pages/EnvironmentHealth/CemeteryFees.jsx';
+import PublicHealth from './pages/EnvironmentHealth/PublicHealth.jsx';
+import GarbageFees from './pages/EnvironmentHealth/GarbageFees.jsx';
+import SanitationPermit from './pages/EnvironmentHealth/SanitationPermit.jsx';
+// import WasteDisposalPermits from './pages/EnvironmentHealth/WasteDisposalPermits.jsx';
+import IndustrialWastePermit from './pages/EnvironmentHealth/IndustrialWastePermit';
+import RoadTolls from './pages/TransportInfrastructure/RoadTolls';
 
 
 function App() {
@@ -46,12 +53,12 @@ function App() {
         <Route path="/loadingzonepermit" element={<LoadingZonePermitPage />} />   {/* TransportInfrastructure */}
         <Route path="/parkingfee" element={<ParkingFeePage />} />   {/* TransportInfrastructure */}
         <Route path="/psvicensefee" element={<PSVLicenseFeePage />} />   {/* TransportInfrastructure */}
+        <Route path="/roadtolls" element={<RoadTolls />} />   {/* TransportInfrastructure */}
 
         <Route path="/librarymembership" element={<LibraryMembershipForm />} />   {/* EducationCommunity */}
         <Route path="/ecdcenter" element={<ECDCenterFeesForm />} />   {/* EducationCommunity */}
         <Route path="/vocationaltraining" element={<VocationalTrainingForm />} />   {/* EducationCommunity */}
 
-        <Route path="/advertismentpermit" element={<AdvertisementPermitForm />} />   {/* BusinessTrade */}
         <Route path="/advertisementpermit" element={<AdvertisementPermitForm />} />   {/* BusinessTrade */}
         <Route path="/liquorlicensing" element={<LiquorLicensingForm/>} />   {/* BusinessTrade */}
         <Route path="/marketstallfees" element={<MarketStallFeesForm />} />   {/* BusinessTrade */}
@@ -65,6 +72,13 @@ function App() {
         <Route path="/changeofuseapplication" element={<ChangeOfUseApplicationPage />} />
         <Route path="/landrates" element={<LandRates />} />
         <Route path="/plotrent" element={<PlotRent />} />
+
+        <Route path="/cemeteryfees" element={<CemeteryFees />} />   {/* EnvironmentHealth */}
+        <Route path="/publichealth" element={<PublicHealth />} />   {/* EnvironmentHealth */}
+        <Route path="/garbagefees" element={<GarbageFees/>} />   {/* EnvironmentHealth */}
+        <Route path="/sanitationpermit" element={<SanitationPermit />} />   {/* EnvironmentHealth */}
+        <Route path="/industrialwastepermit" element={<IndustrialWastePermit />} />   {/* EnvironmentHealth */}
+
       </Routes>
       <Footer/>
     </BrowserRouter>
